@@ -1,0 +1,48 @@
+.container {
+    height: 100px;
+    padding: 0px 50px;
+    background-color: #d1411e;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+}
+
+.item {
+    flex: 2;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    /* background-color: #B90E0A; CRIMSON*/
+    background-color: #d1411e;
+    /* border-radius: 50%; IN CASE OF*/
+    /* width: 64px;
+    height: 64px; */
+}
+
+.texts{
+    margin-left: 20px;
+    color: white;
+}
+
+.text:nth-child(1){
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.text:nth-child(2){
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+}
+
+.list{
+    padding: 0;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    color: white;
+}
