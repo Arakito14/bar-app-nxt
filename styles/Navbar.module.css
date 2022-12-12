@@ -25,12 +25,12 @@
 }
 
 .text:nth-child(1){
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 500;
 }
 
 .text:nth-child(2){
-    font-size: 12px;
+    font-size: 14px;
     font-weight: bold;
     color: black;
 }

@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <div className={styles.container}>
       <div className={styles.item}>
-      <ul className={styles.list}>
+        <ul className={styles.list}>
           <li className={styles.listItem}><Links /></li>
         </ul>
       </div>

@@ -5,10 +5,10 @@ import Navbar from "./Navbar"
 const Layout = ({ children }) => {
   return (
     <>
-        <HamburgerMenu/>
-        <Navbar/>
-        {children}
-        <Footer/>
+      <HamburgerMenu />
+      <Navbar />
+      {children}
+      <Footer />
     </>
   )
 }
