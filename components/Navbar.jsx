@@ -1,16 +1,14 @@
 import Image from "next/image"
 import styles from "../styles/Navbar.module.css"
-import HamburgerMenu, {Links} from '../components/hamburger.js'
+import HamburgerMenu, { Links } from '../components/hamburger.js'
 
 const Navbar = () => {
   return (
     <div className={styles.container}>
-              <div className='max-w-full h-12 flex justify-start items-center bg-black mb-4 text-white rounded-md '>
-            <div className='flex md:hidden'><HamburgerMenu /></div>
-            <div className='hidden md:flex'>
-                <Links />
-            </div>
-        </div>
+      <div className='max-w-full h-12 flex justify-start items-center bg-black mb-4 text-white rounded-md '>
+        <div className={styles.phone}><HamburgerMenu /></div>
+        <div className={styles.pc}><Links /></div>
+      </div>
       <div className={styles.item}>
       </div>
       <div className={styles.item}>
