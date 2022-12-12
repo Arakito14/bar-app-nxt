@@ -6,6 +6,11 @@ const Navbar = () => {
   return (
     <div className={styles.container}>
       <div className={styles.item}>
+      <ul className={styles.list}>
+          <li className={styles.listItem}><Links /></li>
+        </ul>
+      </div>
+      <div className={styles.item}>
         <div className={styles.logo}>
           <Image src="/img/logo-dark.png" alt="" width="72" height="72" />
         </div>
