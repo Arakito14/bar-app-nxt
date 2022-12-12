@@ -1,5 +1,6 @@
 import Image from "next/image"
 import styles from "../styles/Navbar.module.css"
+import { Links } from "./HamburgerMenu"
 
 const Navbar = () => {
   return (

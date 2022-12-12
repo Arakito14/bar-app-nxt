@@ -17,6 +17,7 @@
 
 .logo{
     background-color: #d1411e;
+    position: relative;
 }
 
 .texts{
@@ -41,4 +42,17 @@
     align-items: center;
     list-style: none;
     color: white;
+}
+
+.listItem{
+    margin:20px;
+    font-weight: 500;
+}
+
+.item:nth-child(1){
+    justify-content: flex-end;
+}
+
+.item:last-child{
+    justify-content: flex-end;
 }
