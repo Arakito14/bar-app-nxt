@@ -20,18 +20,6 @@ const OrderSchema = new mongoose.Schema(
       type: Number,
       required: true,
     },
-    status: {
-      type: [Number],
-      required: true,
-    },
-    mesas: {
-      type:[
-        {
-          text: {type: String, required: true},
-          status: {type: Number, required: true},
-        }
-      ]
-    }
   },
   { timestamps: true }
 );
