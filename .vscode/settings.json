@@ -1,0 +1,7 @@
+{
+    "search.exclude": {
+        ".gitignore": true,
+        "mongo.js": true,
+        "yarn.lock": true
+    }
+}
