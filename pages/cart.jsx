@@ -5,6 +5,7 @@ const Cart = () => {
     <div className={styles.container}>
       <div className={styles.left}>
         <table className={styles.table}>
+          <tbody>
             <tr className={styles.trTitle}>
               <th>Nombre</th>
               <th>Precio</th>
@@ -39,21 +40,22 @@ const Cart = () => {
                 <span className={styles.total}>$3980</span>
               </td>
             </tr>
+          </tbody>
         </table>
       </div>
       <div className={styles.right}>
         <div className={styles.wrapper}>
           <h2 className={styles.title}>TOTAL PEDIDO</h2>
           <div className={styles.totalText}>
-            <b className={styles.totalTextTitle}>Subtotal:</b>$79.60
+            <b className={styles.totalTextTitle}>Subtotal:</b>$7960
           </div>
           <div className={styles.totalText}>
-            <b className={styles.totalTextTitle}>Descuento:</b>$0.00
+            <b className={styles.totalTextTitle}>Descuento:</b>$0
           </div>
           <div className={styles.totalText}>
-            <b className={styles.totalTextTitle}>Total:</b>$79.60
+            <b className={styles.totalTextTitle}>Total:</b>$7960
           </div>
-          <button className={styles.button}>GUARDAR</button>
+          <button className={styles.button}>CREAR</button>
         </div>
       </div>
     </div>
