@@ -1,13 +1,14 @@
 import Image from "next/image"
+import Link from 'next/link'
 import styles from "../styles/Navbar.module.css"
-import { LinksNavBar } from "./HamburgerMenu"
 
 const Navbar = () => {
   return (
     <div className={styles.container}>
       <div className={styles.item}>
         <ul className={styles.list}>
-          <li className={styles.listItem}><LinksNavBar /></li>
+          <li className={styles.listItem}><Link href="/" className={styles.listItem}>Inicio</Link></li>
+          <li className={styles.listItem}><Link href="/menu" className={styles.listItem}>Menú</Link></li>
         </ul>
       </div>
       <div className={styles.item}>
