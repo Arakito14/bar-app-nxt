@@ -10,7 +10,6 @@ const CrearList = ({ crearList }) => {
           <CrearCard key={crear._id} crear={crear}/>
         ))}
       </div>
-      <button className={styles.button}>Guardar</button>
     </div>
   )
 }
