@@ -2,28 +2,36 @@ import mongoose from "mongoose";
 
 const OrderSchema = new mongoose.Schema(
   {
-    customer: {
+    empleado: {
       type: String,
       required: true,
       maxlength: 60,
-    },
-    address: {
-      type: String,
-      required: true,
-      maxlength: 200,
     },
     total: {
       type: Number,
       required: true,
     },
+    title: {
+      type: String,
+      required: true,
+      maxlength: 60,
+    },
+    prices: {
+      type: Number,
+      required: true,
+    },
     status: {
-      type: Number,
-      default: 0,
+      type: [Number],
+      required: true,
     },
-    method: {
-      type: Number,
-      required:true
-    },
+    mesas: {
+      type:[
+        {
+          text: {type: String, required: true},
+          status: {type: Number, required: true},
+        }
+      ]
+    }
   },
   { timestamps: true }
 );
