@@ -12,14 +12,14 @@ const HamburgerIcon = () => (<div className='p-1/2'><svg className="w-8 h-8 text
 
 export const Links = () => (<>
     <Link href="/" className={styles.listItem}>Inicio</Link>
-    <Link href="/pedido" className={styles.listItem}>Pedido</Link>
-    <Link href="/" className={styles.listItem}>Ingresar</Link>
-    <Link href="/" className={styles.listItem}>Crear</Link>
+    <Link href="/menu" className={styles.listItem}>Listado de productos</Link>
+    <Link href="/" className={styles.listItem}>Crear pedido nuevo</Link>
+    <Link href="/" className={styles.listItem}>Gestionar pedido</Link>
 </>)
 
 export const LinksNavBar = () => (<>
     <Link href="/" className={styles.listItem}>Inicio</Link>
-    <Link href="/pedido" className={styles.listItem}>Pedido</Link>
+    <Link href="/menu" className={styles.listItem}>Menú</Link>
 </>)
 
 export default HamburgerMenu
