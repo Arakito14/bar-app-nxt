@@ -1,11 +1,9 @@
 import styles from "../styles/Cart.module.css";
-import Image from "next/image";
 
 const Cart = () => {
   return (
     <div className={styles.container}>
       <div className={styles.left}>
-        <tbody>
         <table className={styles.table}>
             <tr className={styles.trTitle}>
               <th>Nombre</th>
@@ -42,7 +40,6 @@ const Cart = () => {
               </td>
             </tr>
         </table>
-        </tbody>
       </div>
       <div className={styles.right}>
         <div className={styles.wrapper}>
