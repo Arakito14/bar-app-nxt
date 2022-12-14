@@ -10,7 +10,7 @@ const Footer = () => {
       <div className={styles.item}>
         <div className={styles.card}>
           <h2 className={styles.motto}>
-            LO QUIERES, LO TIENES, SOLUCIONES RÁPIDAS JUNTO A BARAPP.
+            LO QUIERES, LO TIENES; SOLUCIONES RÁPIDAS JUNTO A BARAPP.
           </h2>
         </div>
         <div className={styles.card}>
