@@ -1,4 +1,4 @@
-import styles from "../styles/TableCard.module.css"
+import styles from "../styles/ProductCard.module.css"
 
 const TableCard = () => {
   return (
