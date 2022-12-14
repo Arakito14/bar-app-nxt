@@ -2,18 +2,6 @@
   margin-left: 40%;
 }
 
-.tr{
-  color: black;
-}
-
-.trTitle{
-  color: black;
-}
-
-.title{
-  color: black;
-}
-
 .container {
   padding: 50px;
   display: flex;
@@ -29,7 +17,7 @@
 }
 
 .table {
-  width: 100%;
+  width: 40%;
   border-spacing: 20px;
 }
 
