@@ -11,9 +11,13 @@
 }
 
 .item {
-    flex: 2;
+    flex: 1;
     display: flex;
     align-items: center;
+}
+
+.item:last-child{
+    justify-content: flex-end;
 }
 
 .logo{
@@ -25,13 +29,13 @@
     color: white;
 }
 
-.text:nth-child(1){
-    font-size: 14px;
+.text:first-child{
+    font-size: 12px;
     font-weight: 500;
 }
 
-.text:nth-child(2){
-    font-size: 14px;
+.text:last-child {
+    font-size: 20px;
     font-weight: bold;
     color: black;
 }
@@ -49,6 +53,12 @@
     font-weight: 500;
 }
 
-.item:last-child{
-    justify-content: flex-end;
-}
+@media screen and (max-width:480px) {
+    .item:nth-child(2) {
+      display: none;
+    }
+  
+    .item:nth-child(1) {
+      flex: 3;
+    }
+  }

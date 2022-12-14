@@ -5,41 +5,43 @@ const Cart = () => {
   return (
     <div className={styles.container}>
       <div className={styles.left}>
-        <tbody className={styles.table}>
-          <tr className={styles.trTitle}>
-            <th>Nombre</th>
-            <th>Precio</th>
-            <th>Cantidad</th>
-            <th>Total</th>
-          </tr>
-          <tr className={styles.tr}>
-            <td>
-              <span className={styles.name}>MARIANNA</span>
-            </td>
-            <td>
-              <span className={styles.price}>$1990</span>
-            </td>
-            <td>
-              <span className={styles.quantity}>2</span>
-            </td>
-            <td>
-              <span className={styles.total}>$3980</span>
-            </td>
-          </tr>
-          <tr className={styles.tr}>
-            <td>
-              <span className={styles.name}>MARIANNA</span>
-            </td>
-            <td>
-              <span className={styles.price}>$1990</span>
-            </td>
-            <td>
-              <span className={styles.quantity}>2</span>
-            </td>
-            <td>
-              <span className={styles.total}>$3980</span>
-            </td>
-          </tr>
+        <tbody>
+        <table className={styles.table}>
+            <tr className={styles.trTitle}>
+              <th>Nombre</th>
+              <th>Precio</th>
+              <th>Cantidad</th>
+              <th>Total</th>
+            </tr>
+            <tr className={styles.tr}>
+              <td>
+                <span className={styles.name}>MARIANNA</span>
+              </td>
+              <td>
+                <span className={styles.price}>$1990</span>
+              </td>
+              <td>
+                <span className={styles.quantity}>2</span>
+              </td>
+              <td>
+                <span className={styles.total}>$3980</span>
+              </td>
+            </tr>
+            <tr className={styles.tr}>
+              <td>
+                <span className={styles.name}>MARIANNA</span>
+              </td>
+              <td>
+                <span className={styles.price}>$1990</span>
+              </td>
+              <td>
+                <span className={styles.quantity}>2</span>
+              </td>
+              <td>
+                <span className={styles.total}>$3980</span>
+              </td>
+            </tr>
+        </table>
         </tbody>
       </div>
       <div className={styles.right}>

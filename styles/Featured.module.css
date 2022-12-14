@@ -2,6 +2,7 @@
     height: calc(100vh - 100px);
     background-color: #FC94AF;
     overflow: hidden;
+    position: relative;
 }
 
 .arrowContainer{
@@ -27,3 +28,9 @@
     height: 100%;
     position: relative;
 }
+
+@media screen and (max-width: 480px) {
+    .container{
+      height: 50vh;
+    }
+  }
