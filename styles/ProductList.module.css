@@ -23,3 +23,9 @@
     justify-content: center;
     flex-wrap: wrap;
 }
+
+.quantity,
+.button {
+  height: 50px;
+  padding: 10px 20px;
+}

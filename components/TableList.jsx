@@ -17,6 +17,10 @@ const TableList = () => {
         <TableCard/>
         <TableCard/>
         <TableCard/>
+        <TableCard/>
+        <TableCard/>
+        <TableCard/>
+        <TableCard/>
       </div>
     </div>
   )

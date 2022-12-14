@@ -25,3 +25,9 @@
     text-align: center;
     color: #777;
 }
+
+.quantity,
+.button {
+  height: 50px;
+  padding: 10px 20px;
+}

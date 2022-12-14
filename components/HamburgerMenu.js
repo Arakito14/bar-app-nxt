@@ -15,6 +15,7 @@ export const Links = () => (<>
     <Link href="/menu" className={styles.listItem}>Listado de productos</Link>
     <Link href="/" className={styles.listItem}>Crear pedido nuevo</Link>
     <Link href="/" className={styles.listItem}>Gestionar pedido</Link>
+    <Link href="/mesa" className={styles.listItem}>Listado de mesas</Link>
 </>)
 
 export const LinksNavBar = () => (<>
