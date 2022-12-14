@@ -22,12 +22,15 @@ const Navbar = () => {
           <div className={styles.text}>Buenas decisiones</div>
         </div>
       </div>
-      <div className={styles.item}>
-        <ul className={styles.list}>
-          <li className={styles.listItem}>Ingresar</li>
-          <li className={styles.listItem}>Crear</li>
-        </ul>
-      </div>
+
+      <Link href="/cart" passHref>
+        <div className={styles.item}>
+          <div className={styles.cart}>
+            <Image src="/img/cart.png" alt="" width="30px" height="30px" />
+            <div className={styles.counter}>{quantity}</div>
+          </div>
+        </div>
+      </Link>
     </div>
   )
 }
