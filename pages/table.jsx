@@ -1,5 +1,4 @@
 import axios from 'axios';
-import CrearList from '../components/CrearList';
 import TableList from '../components/TableList'
 import styles from "../styles/Home.module.css"
 
