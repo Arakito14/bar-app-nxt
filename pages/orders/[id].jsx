@@ -16,8 +16,8 @@ const Order = () => {
           <table className={styles.table}>
             <tbody>
               <tr className={styles.trTitle}>
-                <th>Order ID</th>
-                <th>Customer</th>
+                <th>ID de Pedido</th>
+                <th>Empleado</th>
                 <th>N° de Mesa</th>
                 <th>Total</th>
               </tr>
