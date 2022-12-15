@@ -1,5 +1,5 @@
 import dbConnect from "../../../util/mongo";
-import Product from "../../../models/Product";
+import Mesa from "../../../models/Mesas";
 
 export default async function handler(req, res) {
   const {
@@ -12,8 +12,8 @@ export default async function handler(req, res) {
 
   if (method === "GET") {
     try {
-      const product = await Product.findById(id);
-      res.status(200).json(product);
+      const mesa = await Mesa.findById(id);
+      res.status(200).json(mesa);
     } catch (err) {
       res.status(500).json(err);
     }
@@ -24,10 +24,10 @@ export default async function handler(req, res) {
     //   return res.status(401).json("Not authenticated!")
     // }
     try {
-      const product = await Product.findByIdAndUpdate(id, req.body, {
+      const mesa = await Mesa.findByIdAndUpdate(id, req.body, {
         new: true,
       });
-      res.status(200).json(product);
+      res.status(200).json(mesa);
     } catch (err) {
       res.status(500).json(err);
     }
@@ -38,8 +38,8 @@ export default async function handler(req, res) {
     //   return res.status(401).json("Not authenticated!")
     // }
     try {
-      await Product.findByIdAndDelete(id);
-      res.status(200).json("The product has been deleted!");
+      await Mesa.findByIdAndDelete(id);
+      res.status(200).json("The table has been deleted!");
     } catch (err) {
       res.status(500).json(err);
     }
