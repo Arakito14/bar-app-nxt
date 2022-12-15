@@ -1,12 +1,12 @@
 import mongoose from "mongoose";
 
-const OrderSchema = new mongoose.Schema(
+const MesasSchema = new mongoose.Schema(
   {
     mesas: {
       type:[
         {
-          text: {type: String, required: true},
-          status: {type: Boolean, default: 0},
+          numero: {type: Number, required: true},
+          estado: {type: Boolean, default: true},
         }
       ]
     }
@@ -14,4 +14,4 @@ const OrderSchema = new mongoose.Schema(
   { timestamps: true }
 );
 
-export default mongoose.models.Mesas || mongoose.model("Order", MesasSchema);
+export default mongoose.models.Mesas || mongoose.model("Mesas", MesasSchema);
