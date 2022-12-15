@@ -1,5 +1,4 @@
 import styles from "../styles/CrearCard.module.css"
-import Image from "next/image";
 import { useState } from "react";
 import axios from "axios";
 import { useDispatch } from "react-redux";
