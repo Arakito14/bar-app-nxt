@@ -3,16 +3,14 @@ import axios from "axios";
 import Link from 'next/link'
 
 const TableCard = ({ table }) => {
-
   return (
     <div className={styles.container}>
-      <Link href="/crear" passHref>
-        <button
-          className={styles.mesa}>Mesa {table.mesas.map((mesa) => (
-            <span key={mesa._id}>
-              {mesa.numero}
+      <Link href={`/table/${table._id}`} passHref>
+        <button 
+        ClassName={styles.mesa}>
+            <span>
+              Mesa {table.numero}
             </span>
-          ))}
         </button>
       </Link>
     </div>

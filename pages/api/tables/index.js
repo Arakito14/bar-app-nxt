@@ -4,7 +4,7 @@ import Mesa from "../../../models/Mesas";
 export default async function handler(req, res) {
   const { method } = req;
 
-   dbConnect();
+  await dbConnect();
 
   if (method === "GET") {
     try {
@@ -22,6 +22,20 @@ export default async function handler(req, res) {
     try {
       const mesa = await Mesa.create(req.body);
       res.status(201).json(mesa);
+    } catch (err) {
+      res.status(500).json(err);
+    }
+  }
+
+  if (method === "PUT") {
+    // if(!token || token !== process.env.token){
+    //   return res.status(401).json("Not authenticated!")
+    // }
+    try {
+      const mesa = await Mesa.findByIdAndUpdate(id, req.body, {
+        new: true,
+      });
+      res.status(200).json(mesa);
     } catch (err) {
       res.status(500).json(err);
     }

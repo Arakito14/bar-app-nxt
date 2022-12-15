@@ -51,6 +51,9 @@ const Cart = () => {
           <div className={styles.totalText}>
             <b className={styles.totalTextTitle}>Total:</b>${cart.total}
           </div>
+          <div className={styles.totalText}>
+            <b className={styles.totalTextTitle}>Mesa:</b>2
+          </div>
           <button className={styles.button}>CREAR</button>
         </div>
       </div>
