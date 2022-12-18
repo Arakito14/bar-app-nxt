@@ -2,6 +2,7 @@
 
 # personal
 *.documents
+*.img
 
 # dependencies
 /node_modules
