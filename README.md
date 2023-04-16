@@ -37,7 +37,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 ## Mati's Words
 To connect:
 - git clone https://github.com/Arakito14/bar-app-nxt.git
-- Arakito -> Connect to MongoDB "Cluster0"
+- connect to MongoDB Cluster -> change .env "MONGO_URL" according to your own database
 - yarn
 - yarn dev
 - connect to http://localhost:3000
