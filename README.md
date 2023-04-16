@@ -41,9 +41,9 @@ To connect:
 - yarn
 - yarn dev
 - connect to [localhost](http://localhost:3000)
-- Menu -> seleccionar productos -> agregar -> ver carrito
-- Conectar POSTMAN -> Export files -> Use commands to control BD
-- Mesa presenta problemas
+- menu -> seleccionar productos -> agregar -> ver carrito
+- conectar POSTMAN -> Export files -> Use commands to control BD
+- mesa presenta problemas
 
 Tools
 - Next JS, CSS, JSX, Yarn, MongoDB, Postman, VSC.
