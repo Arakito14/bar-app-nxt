@@ -3,6 +3,7 @@
 # personal
 *.documents
 *.img
+*.env*
 
 # dependencies
 /node_modules
