@@ -40,7 +40,7 @@ To connect:
 - Arakito -> Connect to MongoDB "Cluster0"
 - yarn
 - yarn dev
-- connect to [localhost](http://localhost:3000)
+- connect to http://localhost:3000
 - menu -> seleccionar productos -> agregar -> ver carrito
 - conectar POSTMAN -> Export files -> Use commands to control BD
 - mesa presenta problemas
