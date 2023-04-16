@@ -32,3 +32,65 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+## Mati's Words
+To connect:
+- git clone https://github.com/Arakito14/bar-app-nxt.git
+- Arakito -> Connect to MongoDB
+- yarn
+- yarn dev
+- connect to [localhost](http://localhost:3000)
+
+Tools
+- Next JS, CSS, JSX, Yarn, MongoDB, Postman, VSC.
+- yarn add @reduxjs/toolkit
+- yarn add react-redux
+- Exclude /.next, /.git, /node_modules, yarn.lock, .gitignore, mongo.js
+
+Front-end
+- Responsivo para  470 x 470  y menores que parece ser un buen rango para celulares acorde al internet.
+- Menú de hamburgesa
+- Nav Bar responsiva, "el logo se elimina"
+- Lista de imagenes en sucesión
+
+Back-end
+- Fetch, GET, POST, conectado a la base de datos de mesa y productos.
+- Carro responsivo con un contador de cantidad de producto.
+
+Flujo deseado
+1. Seleccionar mesas (GET)
+2. Al seleccionar -> Paguina de crear pedido (almacena número de mesa “NUMBER”) -> PUT (MESA ORDER)
+3. Agregar productos al carro
+4. Al seleccionar carro, revisar 
+    1. Dos botones
+        1. Crear orden -> agregar datos de empleado.
+        2. Eliminar elementos del carro.
+    2. Al reiniciar la paguina el carro se reinicia también.
+5. Al crear orden -> Mesa = false (PUT)
+    1. Guardar (Cerrar mesa) -> Mesa = true
+    2. Eliminar (DELETE method) -> Mesa = true
+
+Estado mesa
+1 = abierta
+0 = cerrada
+default = 1
+
+Flagged
+1 = Si
+0 = No
+default = 0
+
+TODO
+1. Cambiar la visibilidad en las mesas
+2. Estilos
+    1. Product module
+3. Elementos que necesitan ser eliminados/modificados
+    1. pages/table.jsx
+    2. pages/product/[id]
+    3. pages/menu.js
+    4. pages/crear.jsx
+4. ¿Se necesitan flags?
+5. ¿Ir desde las mesas al pedido es lo más optimo?
+6. Admin Dashboard.
+7. Conectar orden.
