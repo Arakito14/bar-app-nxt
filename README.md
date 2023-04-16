@@ -37,10 +37,13 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 ## Mati's Words
 To connect:
 - git clone https://github.com/Arakito14/bar-app-nxt.git
-- Arakito -> Connect to MongoDB
+- Arakito -> Connect to MongoDB "Cluster0"
 - yarn
 - yarn dev
 - connect to [localhost](http://localhost:3000)
+- Menu -> seleccionar productos -> agregar -> ver carrito
+- Conectar POSTMAN -> Export files -> Use commands to control BD
+- Mesa presenta problemas
 
 Tools
 - Next JS, CSS, JSX, Yarn, MongoDB, Postman, VSC.
